@@ -162,6 +162,14 @@ th.n ~ tr td:hover{
 section h1 {
   text-align: center;
 }
+
+
+@media screen and (width > 720px) and (width < 2000px) {
+  body {
+      background-color: white;
+      font-size: 15pt;
+  }
+}
 /*.chat-bot svg{
   position: absolute;
   height: 30px;
